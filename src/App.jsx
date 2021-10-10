@@ -15,7 +15,8 @@ const App = () => {
         width: "100%",
         height: "auto",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "auto",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
         color: "white",
       }}
     >

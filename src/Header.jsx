@@ -110,11 +110,11 @@ const HeaderEx = () => {
             </Grid>
             <Grid item xs={12} sm={5} md={5} sx={{ textAlign: "center" }}>
               <img
-                style={{ width: "40px", height: "40px" }}
+                style={{ width: "50px", height: "50px" }}
                 src={logo}
                 alt="logo"
               />
-              <h3>JEDSTAR</h3>
+              <p className="logo-text">JEDSTAR</p>
             </Grid>
             <Grid item xs={12} sm={3} md={3}>
               <Grid

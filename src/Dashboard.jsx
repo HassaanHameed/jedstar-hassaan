@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Container, Grid } from "@mui/material";
+import { Link, Container, Grid, Typography } from "@mui/material";
 import instagram from "./img/instagram.png";
 import facebook from "./img/facebook.png";
 import reddit from "./img/reddit.png";
@@ -70,17 +70,16 @@ const Dashboard = () => {
               alignItems="center"
             >
               <Grid item>
-                <h1 style={{ fontWeight: "bold" }}>
-                  JEDSTAR staking Dashboard
-                </h1>
+                <p className="dashboard-heading">JEDSTAR staking Dashboard</p>
               </Grid>
               <Grid item sx={{ marginTop: "30px" }}>
                 <Link
                   href="#"
                   sx={{
-                    borderRadius: "10px",
-                    padding: "15px 40px",
+                    borderRadius: "12px",
+                    padding: "10px 40px",
                     backgroundColor: "#DC9E00",
+                    fontSize: "20px",
                   }}
                   underline="none"
                   color="inherit"
@@ -108,6 +107,7 @@ const Dashboard = () => {
           justifyContent="space-evenly"
           sx={{ color: "white" }}
         >
+          <Grid item xs={12} sm={1} md={1} lg={1}></Grid>
           <Grid
             item
             xs={12}
@@ -117,7 +117,7 @@ const Dashboard = () => {
             sx={{
               width: "225px",
               height: "170px",
-              borderRadius: "10px",
+              borderRadius: "34px",
               border: "1px solid #DC9E00",
               textAlign: "center",
               paddingTop: "50px",
@@ -125,7 +125,7 @@ const Dashboard = () => {
             margin={{ xs: "10px", sm: "0", md: "0", lg: "0" }}
           >
             <p>TOTAL VALUE STAKED</p>
-            <h2>$21,610,291</h2>
+            <h4>$21,610,291</h4>
           </Grid>
           <Grid
             item
@@ -134,9 +134,9 @@ const Dashboard = () => {
             md={3}
             lg={3}
             sx={{
-              width: "225px",
+              width: "150px",
               height: "170px",
-              borderRadius: "10px",
+              borderRadius: "34px",
               border: "1px solid #DC9E00",
               textAlign: "center",
               paddingTop: "50px",
@@ -144,7 +144,7 @@ const Dashboard = () => {
             margin={{ xs: "10px", sm: "0", md: "0", lg: "0" }}
           >
             <p>JEDSTAR STACKED</p>
-            <h2>$11,610,291</h2>
+            <h4>$11,610,291</h4>
           </Grid>
           <Grid
             item
@@ -155,7 +155,7 @@ const Dashboard = () => {
             sx={{
               width: "225px",
               height: "170px",
-              borderRadius: "10px",
+              borderRadius: "34px",
               border: "1px solid #DC9E00",
               textAlign: "center",
               paddingTop: "50px",
@@ -163,7 +163,7 @@ const Dashboard = () => {
             margin={{ xs: "10px", sm: "0", md: "0", lg: "0" }}
           >
             <p>UNIQUE STAKERS</p>
-            <h2>10,291</h2>
+            <h4>10,291</h4>
           </Grid>
         </Grid>
         <Grid
@@ -172,16 +172,17 @@ const Dashboard = () => {
           justifyContent="space-evenly"
           sx={{ color: "white" }}
         >
+          <Grid item xs={12} sm={1} md={1} lg={1}></Grid>
           <Grid
             item
             xs={12}
-            sm={3}
-            md={3}
-            lg={3}
+            sm={4}
+            md={4}
+            lg={4}
             sx={{
               width: "225px",
               height: "170px",
-              borderRadius: "10px",
+              borderRadius: "34px",
               border: "1px solid #DC9E00",
               textAlign: "center",
               paddingTop: "50px",
@@ -189,18 +190,18 @@ const Dashboard = () => {
             margin={{ xs: "10px", sm: "0", md: "0", lg: "0" }}
           >
             <p>JEDS-LP STAKED</p>
-            <h2>$1,610,291</h2>
+            <h4>$1,610,291</h4>
           </Grid>
           <Grid
             item
             xs={12}
-            sm={3}
-            md={3}
-            lg={3}
+            sm={4}
+            md={4}
+            lg={4}
             sx={{
               width: "225px",
               height: "170px",
-              borderRadius: "10px",
+              borderRadius: "34px",
               border: "1px solid #DC9E00",
               textAlign: "center",
               paddingTop: "50px",
@@ -208,7 +209,7 @@ const Dashboard = () => {
             margin={{ xs: "10px", sm: "0", md: "0", lg: "0" }}
           >
             <p>AVAERAGE APY</p>
-            <h2>41%</h2>
+            <h4>41%</h4>
           </Grid>
         </Grid>
       </Container>

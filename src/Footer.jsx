@@ -31,74 +31,99 @@ const Footer = () => {
           >
             <Grid item xs={12} sm={12} md={2} lg={2}>
               <img src={footerlogo} alt="footerlogo" />
-              <h2>JEDSTAR</h2>
+              <h2 style={{ margin: "20px 0" }}>JEDSTAR</h2>
               <Stack
                 direction="row"
                 justifyContent="center"
                 alignItems="center"
               >
-                <Link underline="none" color="inherit" href="#">
+                <Link
+                  sx={{ margin: "0 5px" }}
+                  underline="none"
+                  color="inherit"
+                  href="#"
+                >
                   <img src={insta} alt="instagram" />
                 </Link>
-                <Link underline="none" color="inherit" href="#">
+                <Link
+                  sx={{ margin: "0 5px" }}
+                  underline="none"
+                  color="inherit"
+                  href="#"
+                >
                   <img src={fb} alt="facebook" />
                 </Link>
-                <Link underline="none" color="inherit" href="#">
+                <Link
+                  sx={{ margin: "0 5px" }}
+                  underline="none"
+                  color="inherit"
+                  href="#"
+                >
                   <img src={tw} alt="telegram" />
                 </Link>
-                <Link underline="none" color="inherit" href="#">
+                <Link
+                  sx={{ margin: "0 5px" }}
+                  underline="none"
+                  color="inherit"
+                  href="#"
+                >
                   <img src={rd} alt="reddit" />
                 </Link>
-                <Link underline="none" color="inherit" href="#">
+                <Link
+                  sx={{ margin: "0 5px" }}
+                  underline="none"
+                  color="inherit"
+                  href="#"
+                >
                   <img src={ds} alt="discord" />
                 </Link>
               </Stack>
             </Grid>
             <Grid item xs={12} sm={12} md={2} lg={2}>
-              <h4>JEDS</h4>
+              <h4 style={{ margin: "10px 0" }}>JEDS</h4>
               <ul style={{ listStyle: "none" }}>
                 <Link href="#" underline="none" color="inherit">
                   <li>Token Contract</li>
                 </Link>
                 <Link href="#" underline="none" color="inherit">
-                  <li>Liquidity Pool</li>
+                  <li style={{ margin: "20px 0" }}>Liquidity Pool</li>
                 </Link>
                 <Link href="#" underline="none" color="inherit">
-                  <li>View of CoinGecko</li>
+                  <li style={{ margin: "20px 0" }}>View of CoinGecko</li>
                 </Link>
                 <Link href="#" underline="none" color="inherit">
-                  <li>Veiw of CoinMarketCap</li>
+                  <li style={{ margin: "20px 0" }}>Veiw of CoinMarketCap</li>
                 </Link>
                 <Link href="#" underline="none" color="inherit">
-                  <li>Veiw of Nomics</li>
-                </Link>
-              </ul>
-            </Grid>
-            <Grid item xs={12} sm={12} md={2} lg={2}>
-              <h4>Company</h4>
-              <ul style={{ listStyle: "none" }}>
-                <Link href="#" underline="none" color="inherit">
-                  <li>About</li>
-                </Link>
-                <Link href="#" underline="none" color="inherit">
-                  <li>Tearm and Conditions</li>
-                </Link>
-                <Link href="#" underline="none" color="inherit">
-                  <li>Privacy Policy</li>
+                  <li style={{ margin: "20px 0" }}>Veiw of Nomics</li>
                 </Link>
               </ul>
             </Grid>
             <Grid item xs={12} sm={12} md={2} lg={2}>
-              <h4>Platform</h4>
+              <h4 style={{ margin: "10px 0" }}>Company</h4>
               <ul style={{ listStyle: "none" }}>
                 <Link href="#" underline="none" color="inherit">
-                  <li>Support</li>
+                  <li style={{ margin: "20px 0" }}>About</li>
                 </Link>
                 <Link href="#" underline="none" color="inherit">
-                  <li>Blog</li>
+                  <li style={{ margin: "20px 0" }}>Tearm and Conditions</li>
                 </Link>
                 <Link href="#" underline="none" color="inherit">
-                  <li>Documentation</li>
+                  <li style={{ margin: "20px 0" }}>Privacy Policy</li>
+                </Link>
+              </ul>
+            </Grid>
+            <Grid item xs={12} sm={12} md={2} lg={2}>
+              <h4 style={{ margin: "10px 0" }}>Platform</h4>
+              <ul style={{ listStyle: "none" }}>
+                <Link href="#" underline="none" color="inherit">
+                  <li style={{ margin: "20px 0" }}>Support</li>
+                </Link>
+                <Link href="#" underline="none" color="inherit">
+                  <li style={{ margin: "20px 0" }}>Blog</li>
+                </Link>
+                <Link href="#" underline="none" color="inherit">
+                  <li style={{ margin: "20px 0" }}>Documentation</li>
                 </Link>
               </ul>
             </Grid>

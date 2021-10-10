@@ -23,7 +23,7 @@ const Jedstarcalculator = () => {
         >
           <Typography
             variant="h4"
-            sx={{ fontWeight: "bold", color: "#DC9E00" }}
+            sx={{ fontWeight: "bold", color: "#DC9E00", paddingBottom: "50px" }}
           >
             JEDSTAR Calculator
           </Typography>
@@ -35,6 +35,7 @@ const Jedstarcalculator = () => {
             width: "60%",
             height: "auto",
             backdropFilter: "blur(84px)",
+            background: `rgba(255, 255, 255, 0.1)`,
             borderRadius: "12px",
             padding: "30px",
           }}
@@ -107,12 +108,12 @@ const Jedstarcalculator = () => {
             </p>
             <p style={{ margin: "20px" }}>locked until 9/1/2022</p>
           </Box>
-          <Box mt={10}>
+          <Box sx={{ width: "50%", textAlign: "center", margin: "auto" }}>
             <Link href="#" underline="none" color="inherit">
               <Typography
-                variant="h5"
+                variant="h6"
                 sx={{
-                  padding: "6px 20px",
+                  padding: "10px 0px",
                   backgroundColor: "#DC9E00",
                   borderRadius: "12px",
                 }}
@@ -134,7 +135,7 @@ const Jedstarcalculator = () => {
         >
           <Typography
             variant="h4"
-            sx={{ fontWeight: "bold", color: "#DC9E00" }}
+            sx={{ fontWeight: "bold", color: "#DC9E00", paddingBottom: "50px" }}
           >
             Your Statistics
           </Typography>
@@ -146,6 +147,7 @@ const Jedstarcalculator = () => {
             width: "60%",
             height: "auto",
             backdropFilter: "blur(84px)",
+            background: `rgba(255, 255, 255, 0.1)`,
             borderRadius: "12px",
             padding: "30px",
           }}
@@ -161,6 +163,7 @@ const Jedstarcalculator = () => {
                 borderRadius: "10px",
                 border: "1px solid #DC9E00",
                 height: "119px",
+                padding: "30px 0",
               }}
             >
               <p>JEDSTARS EARN</p>
@@ -176,6 +179,7 @@ const Jedstarcalculator = () => {
                 borderRadius: "10px",
                 border: "1px solid #DC9E00",
                 height: "119px",
+                padding: "30px 0",
               }}
             >
               <p>Your CRDN Wallet Balance</p>
@@ -199,6 +203,7 @@ const Jedstarcalculator = () => {
                   borderRadius: "10px",
                   border: "1px solid #DC9E00",
                   height: "119px",
+                  padding: "30px 0",
                 }}
               >
                 <p>Claimed Reward</p>
@@ -214,6 +219,7 @@ const Jedstarcalculator = () => {
                   borderRadius: "10px",
                   border: "1px solid #DC9E00",
                   height: "119px",
+                  padding: "30px 0",
                 }}
               >
                 <p>Current Staked</p>
@@ -231,6 +237,7 @@ const Jedstarcalculator = () => {
                   borderRadius: "10px",
                   border: "1px solid #DC9E00",
                   height: "119px",
+                  padding: "30px 0",
                 }}
               >
                 <p>Total Staked</p>
@@ -246,6 +253,7 @@ const Jedstarcalculator = () => {
                   borderRadius: "10px",
                   border: "1px solid #DC9E00",
                   height: "119px",
+                  padding: "30px 0",
                 }}
               >
                 <p>Current Unstaked</p>
@@ -266,7 +274,7 @@ const Jedstarcalculator = () => {
         >
           <Typography
             variant="h4"
-            sx={{ fontWeight: "bold", color: "#DC9E00" }}
+            sx={{ fontWeight: "bold", color: "#DC9E00", paddingBottom: "50px" }}
           >
             JEDSTAR
           </Typography>
@@ -278,6 +286,7 @@ const Jedstarcalculator = () => {
             width: "60%",
             height: "auto",
             backdropFilter: "blur(84px)",
+            background: `rgba(255, 255, 255, 0.1)`,
             borderRadius: "12px",
             padding: "30px",
           }}
